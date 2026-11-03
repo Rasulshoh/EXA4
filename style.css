@@ -420,6 +420,28 @@ body {
   object-fit: contain;
 }
 
+.hamkorlarbolimi {
+  padding: 28px 20px 50px;
+  background: white;
+}
+
+.hamkorlarich {
+  max-width: 760px;
+  margin: auto;
+}
+
+.hamkorlarich h2 {
+  margin: 0 0 18px;
+  color: #1380b7;
+  font-size: 23px;
+}
+
+.hamkorlarich img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .oxir {
   padding: 55px max(calc((100% - 980px) / 2), 30px) 25px;
   background: #173c4a;
