@@ -1,0 +1,564 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #24292d;
+}
+
+.bosh {
+  background: #123942;
+}
+
+.sar {
+  height: 520px;
+  color: white;
+  background: linear-gradient(90deg, rgba(0, 29, 42, .72), rgba(0, 29, 42, .14)), url("image.png") center/cover no-repeat;
+}
+
+.nishon {
+  width: 145px;
+}
+
+.sar > .nishon {
+  position: absolute;
+  top: 24px;
+  left: max(calc((100% - 980px) / 2), 30px);
+}
+
+.menu {
+  max-width: 980px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  font-size: 13px;
+}
+
+.menuitem {
+  cursor: default;
+}
+
+.kirish {
+  background: #06ae9d;
+  padding: 11px 26px;
+  border-radius: 4px;
+}
+
+.matn {
+  max-width: 980px;
+  margin: 45px auto;
+}
+
+.sarlavha {
+  max-width: 670px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 1.35;
+}
+
+.rang {
+  background: #04ae9c;
+  padding: 1px 8px;
+}
+
+.izoh {
+  font-size: 20px;
+}
+
+.ariza {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #48a8d7;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.xizmatlar,
+.auditoriya,
+.bozor,
+.dastur,
+.modullar,
+.hamkor,
+.savollar {
+  max-width: 980px;
+  margin: 55px auto;
+}
+
+.sarlavha2 {
+  color: #1380b7;
+  font-size: 25px;
+  margin: 0 0 28px;
+}
+
+.xizmat {
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.xizmatmatn {
+  width: 48%;
+}
+
+.xizmatnomi {
+  color: #147fb3;
+  font-size: 17px;
+}
+
+.kichikmatn {
+  color: #686e73;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.rasm {
+  width: 38%;
+  max-height: 240px;
+  object-fit: contain;
+}
+
+.yashil {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 4px;
+  background: #03b394;
+  color: white;
+  font-size: 13px;
+}
+
+.uch {
+  display: flex;
+  gap: 18px;
+}
+
+.kartochka {
+  flex: 1;
+  padding: 26px;
+  text-align: center;
+  box-shadow: 0 3px 18px #00000012;
+  border-radius: 8px;
+}
+
+.raqam {
+  color: #83b9d5;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.sarlavha3 {
+  font-size: 15px;
+}
+
+.banner {
+  min-height: 300px;
+  background: linear-gradient(#0008, #0008), url("image copy 4.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.bannerich {
+  width: 980px;
+  padding: 20px;
+}
+
+.bannermatn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #04ae9c;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.bannerizoh {
+  font-size: 16px;
+}
+
+.kok {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 14px 26px;
+  color: white;
+  background: linear-gradient(100deg, #5cbbe2, #0879b0);
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.tablar {
+  display: flex;
+  background: #edf1f4;
+  border-radius: 4px;
+}
+
+.tab,
+.tabfaol {
+  flex: 1;
+  padding: 13px;
+  text-align: center;
+  color: #70777d;
+  font-size: 13px;
+}
+
+.tabfaol {
+  color: white;
+  background: #80bad5;
+}
+
+.bozorich {
+  position: relative;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bozorhaqida {
+  width: 29%;
+  z-index: 1;
+}
+
+.bozornomi {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.yashilmatn {
+  color: #03b394;
+}
+
+.odam {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.odammatn {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.xarita {
+  position: absolute;
+  left: 18%;
+  width: 43%;
+  opacity: .7;
+}
+
+.raqamlar {
+  z-index: 1;
+  width: 49%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.raqamkart,
+.yuklash {
+  min-height: 110px;
+  padding: 18px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 18px #00000012;
+  text-align: center;
+}
+
+.qiymat {
+  display: block;
+  color: #78b9d6;
+  font-size: 35px;
+}
+
+.raqamkart span {
+  display: block;
+  margin-top: 10px;
+  color: #777;
+  font-size: 12px;
+}
+
+.yuklash {
+  background: #1681b4;
+  color: white;
+}
+
+.pastga {
+  width: 28px;
+  height: 28px;
+}
+
+.dasturizoh {
+  max-width: 850px;
+  color: #74797d;
+  line-height: 1.6;
+}
+
+.afzallik {
+  flex: 1;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 3px 18px #00000012;
+  border-radius: 7px;
+}
+
+.belgi {
+  display: block;
+  height: 65px;
+  width: 65px;
+  object-fit: contain;
+  margin: 0 auto 15px;
+}
+
+.video {
+  height: 390px;
+  margin-top: 20px;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 5px;
+}
+
+.pley {
+  width: 58px;
+}
+
+.modul {
+  margin: 12px 0;
+  padding: 17px 22px;
+  box-shadow: 0 3px 15px #00000012;
+  border-radius: 6px;
+}
+
+.modulnomi {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.modulnomi b {
+  color: #1785ba;
+}
+
+.strelka {
+  width: 22px;
+  height: 22px;
+  margin-left: auto;
+}
+
+.mavzu {
+  padding: 12px 0 0 40px;
+  color: #777;
+  font-size: 12px;
+}
+
+.pastakok {
+  margin-top: 10px;
+}
+
+.hamkor {
+  text-align: center;
+}
+
+.hamkorlar {
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.savol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 19px 22px;
+  box-shadow: 0 3px 15px #00000012;
+}
+
+.oxir {
+  padding: 55px max(calc((100% - 980px) / 2), 30px) 25px;
+  background: #173c4a;
+  color: white;
+}
+
+.oxirich {
+  max-width: 980px;
+  margin: auto;
+}
+
+.oxirich p {
+  max-width: 420px;
+  line-height: 1.7;
+}
+
+.aloqa {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #03b394;
+  border-radius: 4px;
+}
+
+.huquq {
+  max-width: 980px;
+  margin: 45px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid #ffffff44;
+  color: #b7c5cb;
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .sar {
+    height: 450px;
+    background-position: center;
+  }
+
+  .sar > .nishon {
+    left: 18px;
+    top: 18px;
+    width: 115px;
+  }
+
+  .menu {
+    height: 90px;
+    padding: 0 15px;
+    gap: 10px;
+    justify-content: flex-end;
+    font-size: 10px;
+  }
+
+  .menuitem {
+    display: none;
+  }
+
+  .kirish {
+    padding: 9px 16px;
+  }
+
+  .matn {
+    margin: 80px 18px 0;
+  }
+
+  .sarlavha {
+    font-size: 25px;
+  }
+
+  .izoh {
+    font-size: 16px;
+  }
+
+  .xizmatlar,
+  .auditoriya,
+  .bozor,
+  .dastur,
+  .modullar,
+  .hamkor,
+  .savollar {
+    margin: 38px 18px;
+  }
+
+  .sarlavha2 {
+    font-size: 21px;
+  }
+
+  .xizmat,
+  .ikkinchi {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+    align-items: stretch;
+  }
+
+  .ikkinchi {
+    flex-direction: column-reverse;
+  }
+
+  .xizmatmatn,
+  .rasm {
+    width: 100%;
+  }
+
+  .uch {
+    flex-direction: column;
+  }
+
+  .banner {
+    min-height: 320px;
+  }
+
+  .bannermatn {
+    font-size: 18px;
+  }
+
+  .tab {
+    padding: 10px 4px;
+    font-size: 10px;
+  }
+
+  .bozorich {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 25px;
+    gap: 18px;
+  }
+
+  .bozorhaqida,
+  .raqamlar {
+    width: 100%;
+  }
+
+  .xarita {
+    left: 10%;
+    top: 70px;
+    width: 80%;
+  }
+
+  .raqamkart,
+  .yuklash {
+    min-height: 95px;
+    padding: 10px;
+  }
+
+  .qiymat {
+    font-size: 27px;
+  }
+
+  .video {
+    height: 220px;
+  }
+
+  .modul {
+    padding: 14px 12px;
+  }
+
+  .modulnomi {
+    font-size: 12px;
+  }
+
+  .mavzu {
+    padding-left: 8px;
+  }
+
+  .hamkorlar {
+    width: 100%;
+  }
+
+  .oxir {
+    padding: 38px 18px 22px;
+  }
+}
