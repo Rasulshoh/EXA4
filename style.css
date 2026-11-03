@@ -444,15 +444,18 @@ body {
 
 .oxir {
   max-width: 1200px;
-  height: 90px;
+  height: 91px;
   margin: auto;
   background: #173c4a;
   color: white;
   background-image: url("image copy 33.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .oxirich {
-  max-width: 830px;
+  max-width: 760px;
   height: 100%;
   margin: auto;
   display: flex;
@@ -755,7 +758,7 @@ body {
 .aloqabolimi {
   max-width: 1200px;
   height: 307px;
-  margin: 25px auto 12px;
+  margin: 25px auto 13px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -806,7 +809,7 @@ body {
 .maydon {
   display: block;
   width: calc(100% - 8px);
-  padding: 13px 4px;
+  padding: 10px 4px;
   color: #888;
   background: transparent;
   border: 0;
@@ -1048,18 +1051,13 @@ body {
     flex-direction: column;
     align-items: stretch;
     gap: 20px;
-    margin: 25px 0 12px;
+    margin: 25px 0 13px;
     padding: 30px 18px;
   }
 
   .aloqamatn,
   .aloqaforma {
     width: auto;
-  }
-
-  .oxir {
-    height: auto;
-    padding: 25px 18px;
   }
 
   .oxirich {
@@ -1074,6 +1072,7 @@ body {
   }
 
   .oxir {
+    height: auto;
     padding: 25px 18px;
   }
 }
