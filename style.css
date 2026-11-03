@@ -434,6 +434,8 @@ body {
   padding: 55px max(calc((100% - 980px) / 2), 30px) 25px;
   background: #173c4a;
   color: white;
+  background-image: url("image copy 33.png");
+
 }
 
 .oxirich {
@@ -514,7 +516,7 @@ body {
 
 .narxlar {
   display: flex;
-  border: 3px solid #000;
+  border: 3px solid #fff;
 }
 
 .narxkarta {
@@ -734,7 +736,7 @@ body {
   padding: 28px 20px;
   color: white;
   background-color: #428cf2;
-  background-image: linear-gradient(#428cf2d9, #428cf2d9), url("image copy 30.png");
+  background-image: linear-gradient(#428cf2d9, #428cf2d9), url("image copy 31.png");
   background-position: center;
   background-size: auto, 405px auto;
 }
@@ -1028,5 +1030,6 @@ body {
 
   .oxir {
     padding: 38px 18px 22px;
+
   }
 }
