@@ -633,19 +633,25 @@ body {
 }
 
 .hamjamiyat {
-  min-height: 240px;
-  padding: 35px 20px;
+  min-height: 290px;
+  padding: 45px 20px;
   color: white;
   text-align: center;
-  background: linear-gradient(#0008, #0008), url("image copy 32.png") center/cover no-repeat;
+  background: linear-gradient(#0009, #0009), url("image copy 26.png") center/cover no-repeat;
 }
 
 .hamjamiyat h2 {
-  font-size: 23px;
+  margin: 35px 0 15px;
+  font-size: 25px;
 }
 
 .hamjamiyat p {
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.hamjamiyat .kok {
+  min-width: 150px;
 }
 
 .tadbirlar {
