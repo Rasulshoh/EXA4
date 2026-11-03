@@ -79,16 +79,9 @@ body {
 .auditoriya,
 .bozor,
 .dastur,
-.modullar,
-.savollar {
+.modullar {
   max-width: 980px;
   margin: 55px auto;
-}
-
-.sarlavha2 {
-  color: #1380b7;
-  font-size: 25px;
-  margin: 0 0 28px;
 }
 
 .xizmat {
@@ -419,15 +412,6 @@ body {
   width: 43%;
   height: auto;
   object-fit: contain;
-}
-
-.savol {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 12px 0;
-  padding: 19px 22px;
-  box-shadow: 0 3px 15px #00000012;
 }
 
 .oxir {
