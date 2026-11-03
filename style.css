@@ -443,9 +443,7 @@ body {
 }
 
 .oxir {
-  max-width: 1200px;
   height: 91px;
-  margin: auto;
   background: #173c4a;
   color: white;
   background-image: url("image copy 33.png");
@@ -455,9 +453,8 @@ body {
 }
 
 .oxirich {
-  max-width: 760px;
   height: 100%;
-  margin: auto;
+  padding: 0 12%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -756,9 +753,8 @@ body {
 }
 
 .aloqabolimi {
-  max-width: 1200px;
   height: 307px;
-  margin: 25px auto 13px;
+  margin: 25px 0 13px;
   display: flex;
   justify-content: center;
   align-items: center;
