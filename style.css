@@ -24,7 +24,7 @@ body {
   left: max(calc((100% - 980px) / 2), 30px);
 }
 
-.menu {
+.fehrist {
   max-width: 980px;
   height: 70px;
   margin: auto;
@@ -35,7 +35,7 @@ body {
   font-size: 13px;
 }
 
-.menuitem {
+.fehristband {
   cursor: default;
 }
 
@@ -100,6 +100,14 @@ body {
   gap: 50px;
 }
 
+.ikkinchi {
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
 .xizmatmatn {
   width: 48%;
 }
@@ -135,7 +143,12 @@ body {
   gap: 18px;
 }
 
-.kartochka {
+.afzalliklar {
+  display: flex;
+  gap: 18px;
+}
+
+.varaqcha {
   flex: 1;
   padding: 26px;
   text-align: center;
@@ -153,7 +166,7 @@ body {
   font-size: 15px;
 }
 
-.banner {
+.lavha {
   min-height: 300px;
   background: linear-gradient(#0008, #0008), url("image copy 4.png") center/cover no-repeat;
   display: flex;
@@ -163,12 +176,12 @@ body {
   color: white;
 }
 
-.bannerich {
+.lavhaich {
   width: 980px;
   padding: 20px;
 }
 
-.bannermatn {
+.lavhamatn {
   display: inline-block;
   padding: 12px 22px;
   background: #04ae9c;
@@ -176,7 +189,7 @@ body {
   font-size: 24px;
 }
 
-.bannerizoh {
+.lavhaizoh {
   font-size: 16px;
 }
 
@@ -190,14 +203,14 @@ body {
   font-size: 13px;
 }
 
-.tablar {
+.guruhho {
   display: flex;
   background: #edf1f4;
   border-radius: 4px;
 }
 
-.tab,
-.tabfaol {
+.guruh,
+.guruhfaol {
   flex: 1;
   padding: 13px;
   text-align: center;
@@ -205,7 +218,7 @@ body {
   font-size: 13px;
 }
 
-.tabfaol {
+.guruhfaol {
   color: white;
   background: #80bad5;
 }
@@ -239,7 +252,7 @@ body {
   gap: 10px;
 }
 
-.avatar {
+.surati {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -320,7 +333,7 @@ body {
   margin: 0 auto 15px;
 }
 
-.video {
+.navor {
   height: 390px;
   margin-top: 20px;
   background: #111;
@@ -333,7 +346,7 @@ body {
   border-radius: 5px;
 }
 
-.pley {
+.navortugma {
   width: 58px;
 }
 
@@ -355,7 +368,7 @@ body {
   color: #1785ba;
 }
 
-.strelka {
+.tiri {
   width: 22px;
   height: 22px;
   margin-left: auto;
@@ -365,10 +378,6 @@ body {
   padding: 12px 0 0 40px;
   color: #777;
   font-size: 12px;
-}
-
-.pastakok {
-  margin-top: 10px;
 }
 
 .hamkor {
@@ -434,7 +443,7 @@ body {
     width: 115px;
   }
 
-  .menu {
+  .fehrist {
     height: 90px;
     padding: 0 15px;
     gap: 10px;
@@ -442,7 +451,7 @@ body {
     font-size: 10px;
   }
 
-  .menuitem {
+  .fehristband {
     display: none;
   }
 
@@ -476,8 +485,7 @@ body {
     font-size: 21px;
   }
 
-  .xizmat,
-  .ikkinchi {
+  .xizmat {
     flex-direction: column;
     gap: 12px;
     margin-bottom: 30px;
@@ -486,6 +494,9 @@ body {
 
   .ikkinchi {
     flex-direction: column-reverse;
+    gap: 12px;
+    margin-bottom: 30px;
+    align-items: stretch;
   }
 
   .xizmatmatn,
@@ -493,19 +504,20 @@ body {
     width: 100%;
   }
 
-  .uch {
+  .uch,
+  .afzalliklar {
     flex-direction: column;
   }
 
-  .banner {
+  .lavha {
     min-height: 320px;
   }
 
-  .bannermatn {
+  .lavhamatn {
     font-size: 18px;
   }
 
-  .tab {
+  .guruh {
     padding: 10px 4px;
     font-size: 10px;
   }
