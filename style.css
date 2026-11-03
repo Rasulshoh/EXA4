@@ -84,6 +84,12 @@ body {
   margin: 55px auto;
 }
 
+.sarlavha2 {
+  color: #1380b7;
+  font-size: 25px;
+  margin: 0 0 28px;
+}
+
 .xizmat {
   min-height: 270px;
   display: flex;
@@ -373,7 +379,7 @@ body {
 }
 
 .hamkor {
-  margin: 55px 0;
+  margin: 55px 0 0;
   padding: 28px 20px;
   color: white;
   background-color: #4a91f4;
@@ -650,7 +656,7 @@ body {
 }
 
 .hamjamiyat {
-  min-height: 290px;
+  min-height: 262px;
   padding: 45px 20px;
   color: white;
   text-align: center;
@@ -831,8 +837,7 @@ body {
   .auditoriya,
   .bozor,
   .dastur,
-  .modullar,
-  .savollar {
+  .modullar {
     margin: 38px 18px;
   }
 
