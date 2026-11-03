@@ -431,6 +431,324 @@ body {
   font-size: 12px;
 }
 
+.natija {
+  max-width: 980px;
+  margin: 55px auto;
+}
+
+.natijasarlavha,
+.natbarsarlavha,
+.mutaxassissarlavha,
+.bizsarlavha,
+.qiymatsarlavha {
+  color: #1380b7;
+  font-size: 23px;
+}
+
+.natijalar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.natijakarta {
+  min-height: 120px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 3px 18px #00000012;
+}
+
+.natijakarta b {
+  display: block;
+  color: #82b9d6;
+  font-size: 34px;
+}
+
+.natijakarta strong,
+.natijakarta span {
+  display: block;
+  margin-top: 9px;
+  font-size: 12px;
+}
+
+.natijakarta span {
+  color: #777;
+  font-size: 11px;
+}
+
+.narxbolimi {
+  max-width: 980px;
+  margin: 55px auto;
+}
+
+.narxlar {
+  display: flex;
+  border: 3px solid #f65b43;
+}
+
+.narxkarta {
+  flex: 1;
+  padding: 18px;
+  font-size: 11px;
+  box-shadow: 0 3px 15px #00000012;
+}
+
+.narxkarta img {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.narxkarta h3 {
+  min-height: 34px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.narxkarta p {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+  border-top: 1px solid #eee;
+}
+
+.narxkarta div {
+  margin: 8px 0;
+  color: #555;
+}
+
+.narxraqam {
+  color: #1683b9;
+}
+
+.narxkarta .qoldirish {
+  margin-top: 18px;
+}
+
+.qoldirish {
+  padding: 12px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(100deg, #5cbbe2, #0879b0);
+  border-radius: 4px;
+}
+
+.bizhaqimizda {
+  max-width: 980px;
+  margin: 55px auto;
+}
+
+.bizmatn {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.bizmatn img {
+  width: 44%;
+  max-height: 230px;
+  object-fit: contain;
+}
+
+.bizmatn p,
+.rahbar p {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.rahbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px;
+  box-shadow: 0 3px 18px #00000012;
+}
+
+.rahbar img {
+  width: 35%;
+  max-height: 240px;
+  object-fit: contain;
+}
+
+.rahbar span {
+  display: block;
+  margin-top: 7px;
+  color: #777;
+  font-size: 12px;
+}
+
+.lavhalar {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.lavhalar img {
+  width: 20%;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.mutaxassislar {
+  max-width: 980px;
+  margin: 55px auto;
+}
+
+.mutaxassislarqatori {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.mutaxassis {
+  flex: 1;
+  text-align: center;
+}
+
+.mutaxassis img {
+  display: block;
+  width: 105px;
+  height: 105px;
+  margin: auto auto 12px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mutaxassis b,
+.mutaxassis span {
+  display: block;
+  font-size: 13px;
+}
+
+.mutaxassis span {
+  margin-top: 8px;
+  color: #777;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.hamkorlogotip {
+  display: block;
+  width: 85%;
+  max-height: 150px;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+.hamjamiyat {
+  min-height: 240px;
+  padding: 35px 20px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(#0008, #0008), url("image copy 32.png") center/cover no-repeat;
+}
+
+.hamjamiyat h2 {
+  font-size: 23px;
+}
+
+.hamjamiyat p {
+  font-size: 13px;
+}
+
+.tadbirlar {
+  max-width: 980px;
+  margin: 55px auto;
+}
+
+.tadbirlarqatori {
+  display: flex;
+  gap: 14px;
+}
+
+.tadbir {
+  flex: 1;
+  overflow: hidden;
+  box-shadow: 0 3px 18px #00000012;
+  border-radius: 6px;
+}
+
+.tadbir img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.tadbir h3,
+.tadbir p,
+.tadbir span {
+  display: block;
+  margin: 10px 12px;
+}
+
+.tadbir h3 {
+  font-size: 13px;
+}
+
+.tadbir p,
+.tadbir span {
+  color: #777;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.aloqabolimi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 35px 20px;
+  color: white;
+  background: linear-gradient(100deg, #277ce3, #5ba5ff);
+}
+
+.aloqamatn {
+  width: 360px;
+}
+
+.aloqamatn h2 {
+  font-size: 22px;
+}
+
+.aloqamatn p,
+.ijtimoiy,
+.ijtimoiybelgi {
+  font-size: 12px;
+}
+
+.ijtimoiy {
+  margin-top: 30px;
+}
+
+.ijtimoiybelgi {
+  margin-top: 12px;
+}
+
+.aloqaforma {
+  width: 310px;
+  padding: 20px;
+  color: #555;
+  background: white;
+  box-shadow: 0 3px 18px #00000024;
+}
+
+.maydon {
+  padding: 12px 4px;
+  color: #888;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+
+.aloqaforma .qoldirish {
+  margin-top: 15px;
+  background: #05ae97;
+}
+
 @media (max-width: 500px) {
   .sar {
     height: 450px;
@@ -568,6 +886,85 @@ body {
 
   .hamkorlar {
     width: 100%;
+  }
+
+  .natija,
+  .narxbolimi,
+  .bizhaqimizda,
+  .mutaxassislar,
+  .tadbirlar {
+    margin: 38px 18px;
+  }
+
+  .natijalar {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .natijakarta {
+    padding: 12px 8px;
+  }
+
+  .narxlar {
+    flex-direction: column;
+  }
+
+  .narxkarta {
+    padding: 15px;
+  }
+
+  .bizmatn,
+  .rahbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .bizmatn img,
+  .rahbar img {
+    width: 100%;
+  }
+
+  .lavhalar {
+    overflow: hidden;
+  }
+
+  .lavhalar img {
+    min-width: 42%;
+  }
+
+  .mutaxassislarqatori {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px 10px;
+  }
+
+  .mutaxassis img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .hamkorlogotip {
+    width: 100%;
+  }
+
+  .tadbirlarqatori {
+    flex-direction: column;
+  }
+
+  .tadbir img {
+    height: 150px;
+  }
+
+  .aloqabolimi {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 30px 18px;
+  }
+
+  .aloqamatn,
+  .aloqaforma {
+    width: auto;
   }
 
   .oxir {
