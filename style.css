@@ -437,7 +437,7 @@ body {
 }
 
 .natijasarlavha,
-.natbarsarlavha,
+.tadbarsarlavha,
 .mutaxassissarlavha,
 .bizsarlavha,
 .qiymatsarlavha {
@@ -525,6 +525,7 @@ body {
 
 .narxkarta .qoldirish {
   margin-top: 18px;
+  color: white;
 }
 
 .qoldirish {
@@ -868,7 +869,7 @@ body {
     font-size: 27px;
   }
 
-  .video {
+  .navor {
     height: 220px;
   }
 
