@@ -80,7 +80,6 @@ body {
 .bozor,
 .dastur,
 .modullar,
-.hamkor,
 .savollar {
   max-width: 980px;
   margin: 55px auto;
@@ -381,13 +380,25 @@ body {
 }
 
 .hamkor {
+  margin: 55px 0;
+  padding: 35px max(calc((100% - 980px) / 2), 20px);
+  color: white;
   text-align: center;
+  background-color: #3989dc;
+  background-image: url("image copy 31.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.hamkor .sarlavha2 {
+  color: white;
 }
 
 .hamkorlar {
   display: block;
-  width: 70%;
+  width: 100%;
   margin: 30px auto;
+  object-fit: contain;
 }
 
 .savol {
@@ -792,9 +803,13 @@ body {
   .bozor,
   .dastur,
   .modullar,
-  .hamkor,
   .savollar {
     margin: 38px 18px;
+  }
+
+  .hamkor {
+    margin: 38px 0;
+    padding: 30px 18px;
   }
 
   .sarlavha2 {
@@ -880,10 +895,6 @@ body {
 
   .mavzu {
     padding-left: 8px;
-  }
-
-  .hamkorlar {
-    width: 100%;
   }
 
   .natija,
