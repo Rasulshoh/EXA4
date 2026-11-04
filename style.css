@@ -421,12 +421,12 @@ body {
 }
 
 .hamkorlarbolimi {
-  padding: 28px 20px 50px;
+  padding: 38px 20px 75px;
   background: white;
 }
 
 .hamkorlarich {
-  max-width: 760px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -436,10 +436,51 @@ body {
   font-size: 23px;
 }
 
-.hamkorlarich img {
-  display: block;
-  width: 100%;
-  height: auto;
+.hamkorlogotlar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 14px;
+}
+
+.hamkorlogo {
+  aspect-ratio: 2.85;
+  background-image: url("image copy 25.png");
+  background-repeat: no-repeat;
+  background-size: 400% auto;
+  box-shadow: 0 3px 18px #00000012;
+  border-radius: 6px;
+}
+
+.hamkorlogo1 {
+  background-position: 3% 18%;
+}
+
+.hamkorlogo2 {
+  background-position: 35.5% 18%;
+}
+
+.hamkorlogo3 {
+  background-position: 68% 18%;
+}
+
+.hamkorlogo4 {
+  background-position: 100% 18%;
+}
+
+.hamkorlogo5 {
+  background-position: 3% 89%;
+}
+
+.hamkorlogo6 {
+  background-position: 35.5% 89%;
+}
+
+.hamkorlogo7 {
+  background-position: 68% 89%;
+}
+
+.hamkorlogo8 {
+  background-position: 100% 89%;
 }
 
 .oxir {
@@ -640,17 +681,17 @@ body {
 }
 
 .lavhalar {
-  max-width: 760px;
+  max-width: 900px;
   margin: 30px auto 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 5px;
+  gap: 8px;
 }
 
 .lavharasm {
   display: block;
   width: 100%;
-  height: 100px;
+  height: 120px;
   object-fit: cover;
   border-radius: 6px;
 }
